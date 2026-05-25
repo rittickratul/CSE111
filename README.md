@@ -1,1 +1,1 @@
-This is a Java Object oriented Programming (OOP) course 
+This is a Java Object Oriented Programming (OOP) course 
