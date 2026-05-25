@@ -1,0 +1,25 @@
+class Task5 {
+    public int p = 3, y = 2, sum;
+    public void methodA(){
+        int x = 0, y = 0;
+        y = y + this.y;
+        x = sum + 2 + p;
+        sum = x + methodB(p, y) + y;
+        System.out.println(x + " " + y+ " " + sum);
+    }
+    public int methodB(int p, int n){
+        int x = 0;
+        y = y + (++p);
+        x = x + 2 + n;
+        sum = sum + x + y;
+        System.out.println(x + " " + y+ " " + sum);
+        return sum;
+    }
+ }
+public class CSE111Week02LabTask05 {
+    public static void main(String [] args){
+        Task5 t1 = new Task5();
+        t1.methodA();
+        t1.methodA();
+    }
+ }
