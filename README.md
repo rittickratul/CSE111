@@ -1,1 +1,1 @@
-<h1><b>This is a Java Object Oriented Programming (OOP) course </b> </h1>
+<h1><b><i>This is a Java Object Oriented Programming (OOP) course </i></b> </h1>
